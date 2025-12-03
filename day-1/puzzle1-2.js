@@ -36,10 +36,8 @@ function checkZero() {
   dialPointer === 0 ? zeroCounter++ : null;
 }
 
-for (const step in instructions) {
-  instructions[step].startsWith("L")
-    ? moveLeft(instructions[step].slice(1))
-    : moveRight(instructions[step].slice(1));
+for (const step of instructions) {
+  step.startsWith("L") ? moveLeft(step.slice(1)) : moveRight(step.slice(1));
 }
 
 console.log(zeroCounter);
