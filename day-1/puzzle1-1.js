@@ -1,4 +1,4 @@
-import input from "./puzzle1-input.js";
+import { input } from "./puzzle1-1-input.js";
 
 const instructions = input.split(" ");
 let dialPointer = 50;
