@@ -13,6 +13,6 @@ I've started in 2025 but I'm making my way back through the years!
 
 This repository is for personal use and learning. See [Advent of Code Terms](https://adventofcode.com/about) for puzzle copyright.
 
-### Special Thanks
+## Special Thanks
 
 [Fiarzen](https://github.com/Fiarzen) for getting me hooked! 
